@@ -1,0 +1,23 @@
+Class ckg implements Runnable
+{
+    private String k;
+    public ckg(String s)
+    {
+        this.k = s;
+    }
+    public void run()
+    {
+        System.out.println(Thread.currentThread().getName() + "(start) k=" + k);
+        processk();
+        
+        System.out.println(Thread.currentThread().getName() + "(End)");
+    }
+} 
+ private void processk()
+ {
+    try
+    {
+        ( Thread.sleep(100);
+    )catch(Eeption e)
+ }
+ }
